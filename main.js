@@ -39,7 +39,7 @@ const addAllOption = (async () => {
 
 })()
 
-const allStuff = async () => {
+const createALStuff = async () => {
     try {
 
         const allItems = document.querySelectorAll('.box')
@@ -56,7 +56,7 @@ const allStuff = async () => {
     }
 }
 
-allStuff()
+createALStuff()
 
 
 const filter = async () => {
